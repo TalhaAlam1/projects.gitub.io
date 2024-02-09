@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--- favicon
+  -->
+    <link
+    rel="shortcut icon"
+    href="logo.ico"
+    type="image/x-icon"
+  />
+  
+    <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!--
+  - google font link
+-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!--
+  - #MAIN
+-->
+
+  <main>
+    <!--
+    - #SIDEBAR
+  -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img
+            src="af4012e4-7628-4cbe-921d-e38c12c6e45b.jpg"
+            alt=""
+            width="100"
+            height="120"
+          />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="">Talha Aftab</h1>
+
+          <p class="title">Data Scientist/Data analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="TalhaAftab77@gmail.com" class="contact-link"
+                >TalhaAftab77@gmail.com</a
+              >
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+92491274273" class="contact-link">03154986013</a>
+            </div>
+          </li><li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-08-22">01 January, 2000</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Rawalpindi,Punjab,Pakistan</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="https://www.linkedin.com/in/talhaaftab11/"
+              class="social-link"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1.25em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <style>
+                  svg {
+                    fill: #b0b0b0;
+                  }
+                </style>
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.facebook.com" class="social-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1.25em"
+                viewBox="0 0 448 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+    - #main-content
+  -->
+
+    <div class="main-content">
+      <!--
+      - #NAVBAR
+    -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link></button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+    
+         
+       <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+               <button class="active" data-filter-btn>Machine learning</button> 
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Power Bi</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis using Python</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Power Bi</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis using Python</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category=""
+            >
+              <a href="WhatsApp Image 2024-01-07 at 12.08.59 PM.jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-1.jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+
+                
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.08.59 PM.jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Health stroke reaction and deploy streamlit</h3>
+                <p class="project-category"></p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Data Analysis"
+            >
+              <a href="WhatsApp Image 2024-01-07 at 12.09.01 PM.jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-2.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.09.01 PM.jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Flight Price Prediction</h3>
+
+                <p class="project-category"></p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Machine Learning"
+            >
+              <a href="WhatsApp Image 2024-01-07 at 12.08.59 PM (1).jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-3.jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.08.59 PM (1).jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Traffic Sign Classification</h3>
+
+                <p class="project-category"></p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Power Bi"
+            >
+              <a href="hatsApp Image 2024-01-07 at 12.09.00 PM (1).jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-8.jpg"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.09.00 PM (1).jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Sentiment Analysis sing NLP</h3>
+
+                <p class="project-category"></p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Power Bi"
+            >
+              <a href="WhatsApp Image 2024-01-07 at 12.09.00 PM.jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-9.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.09.00 PM.jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Employee Attrition Prediction</h3>
+
+                <p class="project-category"></p>
+              </a>
+            </li>
+
+            <li
+              class="project-item active"
+              data-filter-item
+              data-category="Power Bi"
+            >
+              <a href="WhatsApp Image 2024-01-07 at 12.49.37 PM.jpeg">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="project-9.png"
+                    alt=""
+                    loading="lazy"
+                  />
+                </figure>
+                <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-07 at 12.49.37 PM.jpeg">
+                <h3 style="padding-top: 20px;" class="project-title">Movie Recommendation System</h3>
+
+                <p class="project-category"></p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+      style="position: absolute;top: 1300px;"
+
+
+
+
+
+
+
+
+      <h2 style="position: absolute;top: 100px; color: white;">Data Analysis Projects using Python</h2>
+
+              <ul class="project-list">
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category=""
+                >
+                  <a href="WhatsApp Image 2024-01-08 at 9.59.28 AM.jpeg">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+  
+                      <img
+                        src="project-1.jpg"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </figure>
+  
+                    
+                    <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 9.59.28 AM.jpeg">
+                    <h3 style="padding-top: 20px;" class="project-title"> Analyzing olympic winner</h3>
+                    <p class="project-category"></p>
+                  </a>
+                </li>
+  
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="Data Analysis"
+                >
+                  <a href="WhatsApp Image 2024-01-08 at 9.59.45 AM.jpeg">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+  
+                      <img
+                        src="project-2.png"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </figure>
+                    <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 9.59.45 AM.jpeg">
+                    <h3 style="padding-top: 20px;" class="project-title">Uber trip data analysis</h3>
+  
+                    <p class="project-category"></p>
+                  </a>
+                </li>
+  
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="Machine Learning"
+                >
+                  <a href="WhatsApp Image 2024-01-08 at 10.00.03 AM.jpeg">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+  
+                      <img
+                        src="project-3.jpg"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </figure>
+                    <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 10.00.03 AM.jpeg">
+                    <h3 style="padding-top: 20px;" class="project-title">Video game sale analysis</h3>
+  
+                    <p class="project-category"></p>
+                  </a>
+                </li>
+  
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="Power Bi"
+                >
+                  <a href="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+  
+                      <img
+                        src="project-8.jpg"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </figure>
+                    <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                    <h3 style="padding-top: 20px;" class="project-title">Udemy data analysis</h3>
+  
+                    <p class="project-category"></p>
+                  </a>
+                </li>
+  
+                
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="Power Bi"
+                >
+                  <a href="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+  
+                      <img
+                        src="project-8.jpg"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </figure>
+                    <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                    <h3 style="padding-top: 20px;" class="project-title">Udemy data analysis</h3>
+  
+                    <p class="project-category"></p>
+                  </a>
+                </li>
+                <li
+                class="project-item active"
+                data-filter-item
+                data-category="Power Bi"
+              >
+                <a href="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="project-8.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </figure>
+                  <img style="height:180px;width: 200px;padding-top: 10px;" src="WhatsApp Image 2024-01-08 at 10.02.34 AM.jpeg">
+                  <h3 style="padding-top: 20px;" class="project-title">Udemy data analysis</h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+
+      <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
